@@ -1,0 +1,369 @@
+body {
+  font-family: "Plus Jakarta Sans", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* navbar */
+.navbar {
+  height: 6rem;
+  background-color: #669bbc;
+}
+
+.navbar-brand img {
+  transition: 0.2s ease;
+}
+.navbar-brand img:hover {
+  transform: rotate(5deg);
+}
+.nav-link {
+  color: #032e45 !important;
+  font-weight: 650 !important;
+  transition: 0.3s ease;
+  font-size: 1.4em;
+  margin-right: 15px;
+  opacity: 0.9;
+}
+.nav-link:hover {
+  color: #002336 !important;
+  opacity: 1;
+}
+
+/* footer */
+
+footer {
+  background: #002336;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 25px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.ig:hover {
+  color: #e4405f;
+} /* Instagram */
+.li:hover {
+  color: #0a66c2;
+} /* LinkedIn */
+
+.copyright {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #bbb;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-logo img:hover {
+  transition: 0.2s ease-in-out;
+}
+
+.footer-logo img:hover {
+  transform: rotate(5deg);
+}
+
+@media (max-width: 480px) {
+  .social-icons a {
+    font-size: 16px;
+    margin: 0 8px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
+}
+
+/* cards */
+
+
+
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 2px 0px 0px 0px !important;
+}
+
+.listing-links {
+  text-decoration: none !important;
+}
+
+.card-text {
+  font-size: 1.1em;
+  font-family: "Poppins", serif;
+}
+
+.card-img-overlay {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+/* form */
+
+.add-btn {
+  background-color: #003049;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.add-btn:hover {
+  background-color: #002336;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+
+.row-form {
+  margin-top: 1rem;
+}
+
+/* Edit */
+.edit-btn {
+  background-color: #003049;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.edit-btn:hover {
+  background-color: #002336;
+}
+
+/* show */
+.show-img {
+  height: 50vh;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #003049;
+}
+
+.title {
+  font-size: 1.7rem;
+}
+
+.description,
+.price,
+.loaction,
+.country,
+.category {
+  font-size: 1.3rem;
+}
+.fa-location-dot {
+  font-size: 1.4rem;
+  color: #f30035;
+  margin-right: 5px;
+}
+
+/* show-btns */
+.show-edit-btn {
+  background-color: #003049;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.show-edit-btn:hover {
+  background-color: #0eaf03;
+}
+
+.del-btn {
+  background-color: #003049;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.del-btn:hover {
+  background-color: #f30035;
+}
+
+/*Show route show-review style*/
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.stars {
+  color: gold;
+  font-size: 25px;
+}
+.comment {
+  margin-top: 5px;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.view-review,
+.leave-review {
+  color: #002336;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.review-btn {
+  width: 100%;
+  background-color: #002336;
+  color: white;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.review-btn:hover {
+  background-color: #0a66c2;
+}
+
+/* Login and signup */
+.sign-btn:hover,
+.login-btn:hover {
+  background-color: #0eaf03;
+}
+
+.login-already,
+.login-already a {
+  color: rgb(65, 65, 65);
+  font-size: 1.1rem;
+}
+.login-already a:hover {
+  color: #006ca6;
+}
+
+/* Filters Navbar*/
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter {
+  text-align: center;
+  opacity: 0.6;
+  margin-right: 2.1rem;
+  margin-top: 1rem;
+  transition: 0.1s ease-in;
+  color: #002336;
+  font-weight: 600;
+}
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* taxSwitch */
+
+.tax-info {
+  display: none;
+}
+
+.tax-switch {
+  border: 2px solid #002336;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .filters {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: visible;
+  }
+}
+
+/*search Button*/
+
+.search-input {
+  height: 45px;
+  border-radius: 25px;
+  font-size: large;
+  font-weight: 550;
+  width: 500px;
+}

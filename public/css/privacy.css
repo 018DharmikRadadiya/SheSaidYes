@@ -1,0 +1,25 @@
+.privacy {
+  max-width: 990px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.privacy-title {
+  font-size: 2.2em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+.privacy-details {
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.ending-title-privacy {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1em;
+  color: #888;
+}
