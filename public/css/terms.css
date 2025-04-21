@@ -16,10 +16,28 @@
 .terms-details {
   line-height: 1.7;
   margin-bottom: 20px;
+  text-align:justify;
 }
 .ending-title {
   text-align: center;
   margin-top: 40px;
   font-size: 1em;
   color: #888;
+}
+
+@media (max-width: 768px) {
+  .terms {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+  .terms-title {
+    font-size: 1.4em;
+  }
+  .terms-details {
+    font-size: 0.95em;
+    text-align:justify;
+  }
+  .ending-title {
+    font-size: 0.9em;
+  }
 }

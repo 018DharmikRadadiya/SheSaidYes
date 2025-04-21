@@ -34,6 +34,12 @@ body {
   opacity: 1;
 }
 
+.navbar-collapse.show {
+  background-color: #669bbc; /* Change this to match your design */
+  padding: 10px;
+  border-radius: 10px;
+}
+
 /* footer */
 
 footer {
@@ -120,9 +126,6 @@ footer {
 }
 
 /* cards */
-
-
-
 .card {
   border: none !important;
   margin-bottom: 2rem;

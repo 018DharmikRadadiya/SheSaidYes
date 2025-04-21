@@ -16,10 +16,28 @@
 .privacy-details {
   line-height: 1.7;
   margin-bottom: 20px;
+  text-align:justify;
 }
 .ending-title-privacy {
   text-align: center;
   margin-top: 40px;
   font-size: 1em;
   color: #888;
+}
+
+@media (max-width: 768px) {
+  .privacy {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+  .privacy-title {
+    font-size: 1.4em;
+  }
+  .privacy-details {
+    font-size: 0.95em;
+    text-align:justify;
+  }
+  .ending-title-privacy {
+    font-size: 0.9em;
+  }
 }
