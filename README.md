@@ -1,4 +1,4 @@
-🎉 I’m happy to share my latest project: She Said Yes 💍
+🎉 I’m happy to share my latest project: Airbnb Clone
 Check it out here:
 👉 https://shesaidyes.onrender.com/listings 👈
 
